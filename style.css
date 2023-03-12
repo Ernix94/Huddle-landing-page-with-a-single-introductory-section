@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    height: 100vh;
+    background-color:hsl(257, 40%, 49%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+nav {
+    height: 250px;
+    padding: 3rem 6rem;
+}
+
+header {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-right {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+h1{
+ font-weight: 600;
+ font-size: 4.5rem;
+ color: white;
+ letter-spacing: 1.8px;
+ padding-right: 30px;
+ margin-bottom: 2rem;
+}
+
+p {
+    color: #fff;
+   letter-spacing: 1px;
+   font-weight: 500;
+  padding-right: 100px;
+  padding-bottom: 3rem;
+  font-size: 20px;
+  
+}
+
+button {
+    height: 55px;
+    width: 200px;
+    border-radius: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 7px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 38px 0px rgba(0,0,0,0.75);
+}
+
+footer{
+   display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+}
+
+.icons {
+    height: 35px;
+    width: 35px;
+    padding-right: 30px; 
+    cursor: pointer;
+    color: black;
+}
+
+
